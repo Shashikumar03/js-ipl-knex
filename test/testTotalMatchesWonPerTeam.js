@@ -1,4 +1,4 @@
-const totalMatchesWonPerTeam = require("../src/server/2_total_matches_won_per_team");
+const totalMatchesWonPerTeam = require("../src/server/2-total-matches-won-per-team");
 
 totalMatchesWonPerTeam()
   .then((results) => {

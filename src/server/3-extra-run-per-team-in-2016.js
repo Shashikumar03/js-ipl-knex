@@ -17,6 +17,7 @@ async function extraRunsPerTeamIn2016() {
       )
       .groupBy("bowling_team")
       .orderBy("runs", "desc");
+
     return extraRuns;
   } catch (error) {
     throw error;

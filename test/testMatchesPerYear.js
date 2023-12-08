@@ -1,3 +1,9 @@
-const matchesPerYear = require("../src/server/1_matches_per_year");
+const matchesPerYear = require("../src/server/1-matches-per-year");
 
-matchesPerYear().then((a) => console.log(a));
+matchesPerYear()
+  .then((results) => {
+    console.log(results);
+  })
+  .catch((err) => {
+    throw err;
+  });
